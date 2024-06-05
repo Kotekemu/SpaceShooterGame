@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3F19BAA2C087D5900AF4488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F19BA92C087D5900AF4488 /* AppDelegate.swift */; };
+		D3F19BAC2C087D5900AF4488 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F19BAB2C087D5900AF4488 /* SceneDelegate.swift */; };
+		D3F19BAE2C087D5900AF4488 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F19BAD2C087D5900AF4488 /* ViewController.swift */; };
+		D3F19BB12C087D5900AF4488 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D3F19BB02C087D5900AF4488 /* Base */; };
+		D3F19BB32C087D5A00AF4488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F19BB22C087D5A00AF4488 /* Assets.xcassets */; };
+		D3F19BB62C087D5A00AF4488 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D3F19BB52C087D5A00AF4488 /* Base */; };
+		D3F19BC12C087D5B00AF4488 /* FractalFibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F19BC02C087D5B00AF4488 /* FractalFibonacciTests.swift */; };
+		D3F19BCB2C087D5B00AF4488 /* FractalFibonacciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F19BCA2C087D5B00AF4488 /* FractalFibonacciUITests.swift */; };
+		D3F19BCD2C087D5B00AF4488 /* FractalFibonacciUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F19BCC2C087D5B00AF4488 /* FractalFibonacciUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3F19BBD2C087D5B00AF4488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F19B9E2C087D5900AF4488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F19BA52C087D5900AF4488;
+			remoteInfo = FractalFibonacci;
+		};
+		D3F19BC72C087D5B00AF4488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F19B9E2C087D5900AF4488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F19BA52C087D5900AF4488;
+			remoteInfo = FractalFibonacci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3F19BA62C087D5900AF4488 /* FractalFibonacci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractalFibonacci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F19BA92C087D5900AF4488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3F19BAB2C087D5900AF4488 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3F19BAD2C087D5900AF4488 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3F19BB02C087D5900AF4488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F19BB22C087D5A00AF4488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F19BB52C087D5A00AF4488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3F19BB72C087D5A00AF4488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F19BBC2C087D5B00AF4488 /* FractalFibonacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalFibonacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F19BC02C087D5B00AF4488 /* FractalFibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalFibonacciTests.swift; sourceTree = "<group>"; };
+		D3F19BC62C087D5B00AF4488 /* FractalFibonacciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalFibonacciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F19BCA2C087D5B00AF4488 /* FractalFibonacciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalFibonacciUITests.swift; sourceTree = "<group>"; };
+		D3F19BCC2C087D5B00AF4488 /* FractalFibonacciUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalFibonacciUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F19BA32C087D5900AF4488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F19BB92C087D5B00AF4488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F19BC32C087D5B00AF4488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3F19B9D2C087D5900AF4488 = {
+			isa = PBXGroup;
+			children = (
+				D3F19BA82C087D5900AF4488 /* FractalFibonacci */,
+				D3F19BBF2C087D5B00AF4488 /* FractalFibonacciTests */,
+				D3F19BC92C087D5B00AF4488 /* FractalFibonacciUITests */,
+				D3F19BA72C087D5900AF4488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F19BA72C087D5900AF4488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F19BA62C087D5900AF4488 /* FractalFibonacci.app */,
+				D3F19BBC2C087D5B00AF4488 /* FractalFibonacciTests.xctest */,
+				D3F19BC62C087D5B00AF4488 /* FractalFibonacciUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F19BA82C087D5900AF4488 /* FractalFibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				D3F19BA92C087D5900AF4488 /* AppDelegate.swift */,
+				D3F19BAB2C087D5900AF4488 /* SceneDelegate.swift */,
+				D3F19BAD2C087D5900AF4488 /* ViewController.swift */,
+				D3F19BAF2C087D5900AF4488 /* Main.storyboard */,
+				D3F19BB22C087D5A00AF4488 /* Assets.xcassets */,
+				D3F19BB42C087D5A00AF4488 /* LaunchScreen.storyboard */,
+				D3F19BB72C087D5A00AF4488 /* Info.plist */,
+			);
+			path = FractalFibonacci;
+			sourceTree = "<group>";
+		};
+		D3F19BBF2C087D5B00AF4488 /* FractalFibonacciTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F19BC02C087D5B00AF4488 /* FractalFibonacciTests.swift */,
+			);
+			path = FractalFibonacciTests;
+			sourceTree = "<group>";
+		};
+		D3F19BC92C087D5B00AF4488 /* FractalFibonacciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F19BCA2C087D5B00AF4488 /* FractalFibonacciUITests.swift */,
+				D3F19BCC2C087D5B00AF4488 /* FractalFibonacciUITestsLaunchTests.swift */,
+			);
+			path = FractalFibonacciUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F19BA52C087D5900AF4488 /* FractalFibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F19BD02C087D5B00AF4488 /* Build configuration list for PBXNativeTarget "FractalFibonacci" */;
+			buildPhases = (
+				D3F19BA22C087D5900AF4488 /* Sources */,
+				D3F19BA32C087D5900AF4488 /* Frameworks */,
+				D3F19BA42C087D5900AF4488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractalFibonacci;
+			productName = FractalFibonacci;
+			productReference = D3F19BA62C087D5900AF4488 /* FractalFibonacci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3F19BBB2C087D5B00AF4488 /* FractalFibonacciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F19BD32C087D5B00AF4488 /* Build configuration list for PBXNativeTarget "FractalFibonacciTests" */;
+			buildPhases = (
+				D3F19BB82C087D5B00AF4488 /* Sources */,
+				D3F19BB92C087D5B00AF4488 /* Frameworks */,
+				D3F19BBA2C087D5B00AF4488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F19BBE2C087D5B00AF4488 /* PBXTargetDependency */,
+			);
+			name = FractalFibonacciTests;
+			productName = FractalFibonacciTests;
+			productReference = D3F19BBC2C087D5B00AF4488 /* FractalFibonacciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3F19BC52C087D5B00AF4488 /* FractalFibonacciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F19BD62C087D5B00AF4488 /* Build configuration list for PBXNativeTarget "FractalFibonacciUITests" */;
+			buildPhases = (
+				D3F19BC22C087D5B00AF4488 /* Sources */,
+				D3F19BC32C087D5B00AF4488 /* Frameworks */,
+				D3F19BC42C087D5B00AF4488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F19BC82C087D5B00AF4488 /* PBXTargetDependency */,
+			);
+			name = FractalFibonacciUITests;
+			productName = FractalFibonacciUITests;
+			productReference = D3F19BC62C087D5B00AF4488 /* FractalFibonacciUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F19B9E2C087D5900AF4488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D3F19BA52C087D5900AF4488 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D3F19BBB2C087D5B00AF4488 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D3F19BA52C087D5900AF4488;
+					};
+					D3F19BC52C087D5B00AF4488 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D3F19BA52C087D5900AF4488;
+					};
+				};
+			};
+			buildConfigurationList = D3F19BA12C087D5900AF4488 /* Build configuration list for PBXProject "FractalFibonacci" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F19B9D2C087D5900AF4488;
+			productRefGroup = D3F19BA72C087D5900AF4488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F19BA52C087D5900AF4488 /* FractalFibonacci */,
+				D3F19BBB2C087D5B00AF4488 /* FractalFibonacciTests */,
+				D3F19BC52C087D5B00AF4488 /* FractalFibonacciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F19BA42C087D5900AF4488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F19BB32C087D5A00AF4488 /* Assets.xcassets in Resources */,
+				D3F19BB62C087D5A00AF4488 /* Base in Resources */,
+				D3F19BB12C087D5900AF4488 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F19BBA2C087D5B00AF4488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F19BC42C087D5B00AF4488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F19BA22C087D5900AF4488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F19BAE2C087D5900AF4488 /* ViewController.swift in Sources */,
+				D3F19BAA2C087D5900AF4488 /* AppDelegate.swift in Sources */,
+				D3F19BAC2C087D5900AF4488 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F19BB82C087D5B00AF4488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F19BC12C087D5B00AF4488 /* FractalFibonacciTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F19BC22C087D5B00AF4488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F19BCB2C087D5B00AF4488 /* FractalFibonacciUITests.swift in Sources */,
+				D3F19BCD2C087D5B00AF4488 /* FractalFibonacciUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3F19BBE2C087D5B00AF4488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F19BA52C087D5900AF4488 /* FractalFibonacci */;
+			targetProxy = D3F19BBD2C087D5B00AF4488 /* PBXContainerItemProxy */;
+		};
+		D3F19BC82C087D5B00AF4488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F19BA52C087D5900AF4488 /* FractalFibonacci */;
+			targetProxy = D3F19BC72C087D5B00AF4488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3F19BAF2C087D5900AF4488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F19BB02C087D5900AF4488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3F19BB42C087D5A00AF4488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F19BB52C087D5A00AF4488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F19BCE2C087D5B00AF4488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3F19BCF2C087D5B00AF4488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F19BD12C087D5B00AF4488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FractalFibonacci/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.FractalFibonacci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3F19BD22C087D5B00AF4488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FractalFibonacci/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.FractalFibonacci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3F19BD42C087D5B00AF4488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.FractalFibonacciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FractalFibonacci.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FractalFibonacci";
+			};
+			name = Debug;
+		};
+		D3F19BD52C087D5B00AF4488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.FractalFibonacciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FractalFibonacci.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FractalFibonacci";
+			};
+			name = Release;
+		};
+		D3F19BD72C087D5B00AF4488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.FractalFibonacciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FractalFibonacci;
+			};
+			name = Debug;
+		};
+		D3F19BD82C087D5B00AF4488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.FractalFibonacciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FractalFibonacci;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F19BA12C087D5900AF4488 /* Build configuration list for PBXProject "FractalFibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F19BCE2C087D5B00AF4488 /* Debug */,
+				D3F19BCF2C087D5B00AF4488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F19BD02C087D5B00AF4488 /* Build configuration list for PBXNativeTarget "FractalFibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F19BD12C087D5B00AF4488 /* Debug */,
+				D3F19BD22C087D5B00AF4488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F19BD32C087D5B00AF4488 /* Build configuration list for PBXNativeTarget "FractalFibonacciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F19BD42C087D5B00AF4488 /* Debug */,
+				D3F19BD52C087D5B00AF4488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F19BD62C087D5B00AF4488 /* Build configuration list for PBXNativeTarget "FractalFibonacciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F19BD72C087D5B00AF4488 /* Debug */,
+				D3F19BD82C087D5B00AF4488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F19B9E2C087D5900AF4488 /* Project object */;
+}
