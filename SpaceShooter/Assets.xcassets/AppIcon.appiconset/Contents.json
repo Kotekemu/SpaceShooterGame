@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "2291003_alien_eye_face_emoji_emotion_icon.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
